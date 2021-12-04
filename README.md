@@ -7,6 +7,4 @@ This project will go through the resumes that are in pdf format, and convert the
 
 #You have to mention the particular skills you want to extract.
 
-#If you don't have database file then code will give error, to create a database file of your own, just replace [" result_df.to_sql('candidates', conn, if_exists='append', index = False) "] with [" result_df.to_sql('candidates', conn, if_exists='replace', index = False) "]. After one successful run, revert the changes that you made earlier.
-
 #Demo and code explanation video coming soon along with GUI, and executable file.
